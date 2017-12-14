@@ -1,0 +1,132 @@
+$primary-color:#000;
+$button:red;
+$nav-link:grey;
+$light-color:lightgrey;
+$h3:20px;
+$align:center;
+$font-weight:600;
+$main-border:2px;
+$border-radius:2px;
+$nav-color:darkgrey;
+$text:#fff;
+$fine-position:absolute;
+$main-padding:15%;
+$standard-size:12px;
+$margin:auto;
+
+
+html{
+	body{
+		padding: 0px;
+		margin: 0px;
+	}
+}
+.navbar{
+	background-color: $text;
+	h5{
+	margin-top:-40px;
+	margin-left: 90px;
+	}
+	small{
+		position: $fine-position;
+		top: 45px;
+		left:280px;
+		font-size:$standard-size;
+	}
+	.navbar-toggler-icon{
+		background-color: $nav-color;
+	}
+}
+#mynavbar{
+	font-size: $standard-size;
+	font-weight: 700;
+	.nav-link{
+		color: $primary-color;
+	}
+	#menu{
+		position: $fine-position;
+		left: 92%;
+	}
+	#bars{
+		position: $fine-position;
+		left: 90%;
+	}
+	#contact{
+		position: $fine-position;
+		left: 82%;
+	}
+	#login{
+		position: $fine-position;
+		left: 75%;
+	}
+}
+.jumbotron{
+	border-radius: 0;
+	text-align: $align;
+	.info{
+		font-size: $standard-size;
+	}
+	.menu{
+		.nav-link{
+			font-size: 11px;
+			color: $nav-link;
+		}
+		.active{
+				color: $primary-color;
+				font-weight: $font-weight;
+				border-bottom:$main-border solid $button; 
+			}
+	}
+}
+hr{
+	width: 29%;
+	margin-top: -2px;
+	padding-bottom: 20px;
+}
+.card{
+	text-align: $align;
+	height: 500px;
+	padding: $main-padding;
+}
+.btn-dander{
+	width: 55%;
+	margin-left: $margin;
+	margin-right: $margin;
+}
+.logo{
+	margin-left: $margin;
+	margin-right: $margin;
+	max-width: 45%;
+	height: 25%;
+}
+h3{
+	font-size: $h3;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.fa-star{
+	color: $primary-color;
+	padding-bottom: 30px;
+}
+i.grey{
+	color: $light-color;
+}
+.small{
+	@extend .fa-star;
+	font-size: 10px;
+}
+.btn-outline-secondary{
+	margin-top: 10%;
+	min-width:45%;
+	font-weight:$font-weight;
+	border: $main-border solid $nav-link;
+	border-radius:$border-radius;
+	text-align:left;
+	font-size: $standard-size;
+}
+@media only screen and (min-width: 768px) {
+	min-width: 50%;
+	font-size:10px;
+	font-weight: 300;
+	padding-left: 0;
+}

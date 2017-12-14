@@ -1,0 +1,98 @@
+html body {
+  padding: 0px;
+  margin: 0px; }
+
+.navbar {
+  background-color: #fff; }
+  .navbar h5 {
+    margin-top: -40px;
+    margin-left: 90px; }
+  .navbar small {
+    position: absolute;
+    top: 45px;
+    left: 280px;
+    font-size: 12px; }
+  .navbar .navbar-toggler-icon {
+    background-color: darkgrey; }
+
+#mynavbar {
+  font-size: 12px;
+  font-weight: 700; }
+  #mynavbar .nav-link {
+    color: #000; }
+  #mynavbar #menu {
+    position: absolute;
+    left: 92%; }
+  #mynavbar #bars {
+    position: absolute;
+    left: 90%; }
+  #mynavbar #contact {
+    position: absolute;
+    left: 82%; }
+  #mynavbar #login {
+    position: absolute;
+    left: 75%; }
+
+.jumbotron {
+  border-radius: 0;
+  text-align: center; }
+  .jumbotron .info {
+    font-size: 12px; }
+  .jumbotron .menu .nav-link {
+    font-size: 11px;
+    color: grey; }
+  .jumbotron .menu .active {
+    color: #000;
+    font-weight: 600;
+    border-bottom: 2px solid red; }
+
+hr {
+  width: 29%;
+  margin-top: -2px;
+  padding-bottom: 20px; }
+
+.card {
+  text-align: center;
+  height: 500px;
+  padding: 15%; }
+
+.btn-dander {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45%;
+  height: 25%; }
+
+h3 {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px; }
+
+.fa-star, .small {
+  color: #000;
+  padding-bottom: 30px; }
+
+i.grey {
+  color: lightgrey; }
+
+.small {
+  font-size: 10px; }
+
+.btn-outline-secondary {
+  margin-top: 10%;
+  min-width: 45%;
+  font-weight: 600;
+  border: 2px solid grey;
+  border-radius: 2px;
+  text-align: left;
+  font-size: 12px; }
+
+@media only screen and (min-width: 768px) {
+  min-width: 50%;
+  font-size: 10px;
+  font-weight: 300;
+  padding-left: 0; }
